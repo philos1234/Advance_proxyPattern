@@ -2,7 +2,7 @@
 프록시패턴 공부
 
 
-## 개요
+## 프록시 패턴 개요
 
 ![image](https://user-images.githubusercontent.com/48795102/146339307-63cbec1e-968b-49ce-9647-9425b35ff45c.png)
 
@@ -12,7 +12,7 @@
 (프록시 체인으로도 구성될 수 있다)
 ![image](https://user-images.githubusercontent.com/48795102/146340278-c59b9917-c86a-4382-aee4-d16fa08acbb4.png)
 
-###### 대체 가능성
+##### 대체 가능성
 서버와 프록시가 같은 인터페이스를 사용함으로써 클라이언트는 코드를 변경하지 않고 프록시 객체로 요청을 날릴 수 있음
 
 ![image](https://user-images.githubusercontent.com/48795102/146341377-c76d129f-03f0-4f37-a193-9ab658c21bb4.png)
