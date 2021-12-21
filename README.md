@@ -36,7 +36,7 @@
 
 
 
-## 프록시 패턴 vs 데코레이터 패턴
+### 프록시 패턴 vs 데코레이터 패턴
 둘을 구분하는 기준은 무엇인가? 
 -> 의도(Intent)
 
@@ -64,6 +64,7 @@
 ![image](https://user-images.githubusercontent.com/48795102/146940415-d87b4b2b-8095-4414-8524-af42b3b9f30a.png)
 
 이와 같이 동적프록시가 InvocationHandler를 호출하는 방식
+
  
  
  
