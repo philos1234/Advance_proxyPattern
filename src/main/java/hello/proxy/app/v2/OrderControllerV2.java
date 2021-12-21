@@ -4,7 +4,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
+/**
+ *
+ *  v2 - 인터페이스 없는 구체 클래스 - 스프링 빈으로 수동 등록
+ */
 @Slf4j
 @RequestMapping
 @ResponseBody
