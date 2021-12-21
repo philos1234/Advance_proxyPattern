@@ -44,3 +44,27 @@
  
  데코레이터 패턴 : 객체에 추가 책임(기능)을 동적으로 추가, 기능 확장에 초점
  
+ 
+ ## 동적 프록시 (Dynamic Proxy)
+ ###### 동적 프록시 코드 패키지 ->  hello.proxy.config.v2_dynamicproxy
+ 
+ JDK의 리플렉션(reflection)을 이용해 클래스나 메서드의 메타 정보를 활용하여 프록시를 동적으로 호출
+ 동적 프록시 기술을 사용하여 프록시 객체를 동적으로 런타임에 만들어 사용 가능
+ 단, JDK 동적 프록시는 인터페이스를 기반으로 하므로, 인터페이스가 필수이다.
+ 
+ 다음과 같은 InvocationHandler를 구현한 Handler를 만들어 사용
+ ![image](https://user-images.githubusercontent.com/48795102/146938419-1c38c899-66e1-4ca7-9489-ac85a24ae511.png)
+
+- Object proxy : 프록시 자신
+- Method method : 호출한 메서드
+- Object[] args: 메서드를 호출할 때 전달한 인수
+
+
+### 동적 프록시 구성도
+![image](https://user-images.githubusercontent.com/48795102/146940415-d87b4b2b-8095-4414-8524-af42b3b9f30a.png)
+
+이와 같이 동적프록시가 InvocationHandler를 호출하는 방식
+ 
+ 
+ 
+ 
