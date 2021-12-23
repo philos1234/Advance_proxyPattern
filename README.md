@@ -2,7 +2,7 @@
 프록시패턴 공부
 
 
-## 프록시 패턴 개요
+## Ⅰ. 프록시 패턴 개요
 
 ![image](https://user-images.githubusercontent.com/48795102/146339307-63cbec1e-968b-49ce-9647-9425b35ff45c.png)
 
@@ -45,7 +45,7 @@
  데코레이터 패턴 : 객체에 추가 책임(기능)을 동적으로 추가, 기능 확장에 초점
  
  
- ## 동적 프록시 (Dynamic Proxy)
+ ## Ⅱ. 동적 프록시 (Dynamic Proxy)
  ###### 동적 프록시 코드 패키지 ->  hello.proxy.config.v2_dynamicproxy
  
  JDK의 리플렉션(reflection)을 이용해 클래스나 메서드의 메타 정보를 활용하여 프록시를 동적으로 호출
@@ -67,5 +67,6 @@
 
  
  
- 
+  ## Ⅲ. 스프링이 지원하는 프록시 (Proxy Factory)
+  
  
