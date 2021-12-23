@@ -78,5 +78,7 @@
 
 ![image](https://user-images.githubusercontent.com/48795102/147202093-bf3b1271-ea1e-4b5b-9560-6f7121e393aa.png)
 
+
+**ProxyTargetClass 옵션을 사용하면 인터페이스가 있어도 CGLIB을 사용하고, 클래스기반 프록시를 사용한다**
  
   ###### 프록시 팩토리 코드 ->  ../test/java/hello/proxy/proxyfactory
