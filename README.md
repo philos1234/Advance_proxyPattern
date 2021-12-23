@@ -68,5 +68,15 @@
  
  
   ## Ⅲ. 스프링이 지원하는 프록시 (Proxy Factory)
+
+타겟 클래스가 인터페이스가 있는 경우에는 JDK 동적 프록시를, 그렇지 않은 경우에는 CGLIB을 이용해야한다. 이 두 기술을 함께 사용하기 위해 스프링에서는 동적 프록시를 편리하게 사용할 수 있도록
+프록시 팩토리를 제공한다.
+
+  ![image](https://user-images.githubusercontent.com/48795102/147201739-7b5783ad-c48f-4eea-ac52-e011740a6886.png)
   
+이 두 기술을 함께 사용할 때, 부가 기능(데코레이터 프록시)을 적용하기 위해 Advice라는 개념이 도입되었다. 따라서 InvocationHandler(JDK 인 경우)나 MethodInterceptor(CGLIB인 경우)를 신경쓰지 않고 Advice를 호출하면 된다.
+
+![image](https://user-images.githubusercontent.com/48795102/147202093-bf3b1271-ea1e-4b5b-9560-6f7121e393aa.png)
+
  
+  ###### 프록시 팩토리 코드 ->  ../test/java/hello/proxy/proxyfactory
